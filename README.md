@@ -14,9 +14,9 @@ mt.preprocess('./data/test', org='brain', windowing='bsb', resample=True, visual
 
 ## CT Preprocessing
 Currently supporting CT windowing preprocessing only. Available windows include:
-- Simple windowing (```simple```)
-- Brain, Subdural, Bone windowing (```bs```)
-- Sigmoid windowing (```sigmoid```)
+- Simple windowing (```window='simple'```)
+- Brain, Subdural, Bone windowing (```window='bs'```)
+- Sigmoid windowing (```window='sigmoid'```)
 
 Also supporting resampling of pixel spacing to ```[1, 1]```
 
