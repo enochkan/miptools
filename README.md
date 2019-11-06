@@ -7,10 +7,12 @@ Sample usage:
 ~~~~{.python}
 # import library
 import miptools as mt
+
+# preprocessing usage
 mt.preprocess('./data/test', org='brain', windowing='bsb', resample=True, visualize=True):
 ~~~~
 
-# CT Preprocessing
+## CT Preprocessing
 Currently supporting CT windowing preprocessing only. Available windows include:
 - Simple windowing (```simple```)
 - Brain, Subdural, Bone windowing (```bs```)
