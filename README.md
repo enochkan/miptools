@@ -7,10 +7,16 @@ Sample usage:
 ~~~~{.python}
 # import library
 import miptools as mt
-
 mt.preprocess('./data/test', org='brain', windowing='bsb', resample=True, visualize=True):
-
 ~~~~
+
+# CT Preprocessing
+Currently supporting CT windowing preprocessing only. Available windows include:
+- Simple windowing (```simple```)
+- Brain, Subdural, Bone windowing (```bs```)
+- Sigmoid windowing (```sigmoid```)
+
+Also supporting resampling of pixel spacing to ```[1, 1]```
 
 ## Versions
 Python == 3.7.2
@@ -20,6 +26,7 @@ Python == 3.7.2
 - [ ] gradient windowing for CT
 - [ ] add saving function
 - [ ] add tests
+- [ ] add normalization functions
 
 ## Author
 Chi Nok Enoch Kan/ [@chinokenochkan](https://github.com/chinokenochkan)
