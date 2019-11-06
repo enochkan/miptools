@@ -10,3 +10,4 @@
 
 # build files
 /build/*
+/build/lib/miptools/__init__.py
