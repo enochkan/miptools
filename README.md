@@ -9,7 +9,7 @@ Sample usage:
 import miptools as mt
 
 # preprocessing usage
-mt.preprocess('./data/test', org='brain', windowing='bsb', resample=True, visualize=True):
+mt.preprocess('./data/test', org='brain', windowing='bsb', resample=True, visualize=True)
 ~~~~
 
 ## CT Preprocessing
