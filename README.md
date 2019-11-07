@@ -26,9 +26,9 @@ Python == 3.7.2
 ## Todo
 - [ ] MRI processing
 - [ ] gradient windowing for CT
-- [ ] add saving function
+- [X] add saving function
 - [ ] add tests
-- [X] add normalization functions
+- [ ] add normalization functions
 
 ## Author
 Chi Nok Enoch Kan/ [@chinokenochkan](https://github.com/chinokenochkan)
