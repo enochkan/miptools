@@ -28,7 +28,7 @@ Python == 3.7.2
 - [ ] gradient windowing for CT
 - [ ] add saving function
 - [ ] add tests
-- [ ] add normalization functions
+- [X] add normalization functions
 
 ## Author
 Chi Nok Enoch Kan/ [@chinokenochkan](https://github.com/chinokenochkan)
