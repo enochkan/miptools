@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import pydicom
 import numpy as np
+import scipy.ndimage
 
 # {
 #     helper functions
@@ -92,3 +93,5 @@ def bsb_window(dcm, resample=False):
 
     img = np.array([brain_img, subdural_img, bone_img]).transpose(1,2,0)
     return img
+
+preprocess('./data/test.dcm', org='brain', windowing='simple', resample=True, visualize=True)

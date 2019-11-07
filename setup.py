@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='miptools',
-      version='0.1',
+      version='0.0.1',
       description='miptools is a preprocessing utility that allows users to preprocess medical images at ease',
       url='https://github.com/chinokenochkan/miptools',
       author='Chi Nok Enoch Kan',
@@ -9,7 +9,7 @@ setup(name='miptools',
       license='MIT',
       packages=['miptools'],
       install_requires=[
-          'pydicom','numpy','matplotlib'
+          'pydicom','numpy','matplotlib','scipy'
       ],
       classifiers=[
         'License :: OSI Approved :: MIT License',
