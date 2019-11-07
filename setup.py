@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='miptools',
-      version='0.0.1',
+      version='0.0.2',
       description='miptools is a preprocessing utility that allows users to preprocess medical images at ease',
       url='https://github.com/chinokenochkan/miptools',
       author='Chi Nok Enoch Kan',
