@@ -110,4 +110,3 @@ def bsb_window(dcm, resample=False):
     img = np.array([brain_img, subdural_img, bone_img]).transpose(1,2,0)
     return img
 
-preprocess('./data/test.dcm', org='brain', windowing='bsb', resample=True, visualize=False, save=True)
