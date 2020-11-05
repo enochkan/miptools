@@ -1,5 +1,6 @@
 # miptools
 [![PyPI version](https://badge.fury.io/py/miptools.svg)](https://badge.fury.io/py/miptools)
+
 This is a medical image processing toolbox for quick preprocessing of CTs and MRIs
 
 Download the latest release ```pip install --upgrade miptools```
