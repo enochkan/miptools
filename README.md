@@ -33,4 +33,4 @@ Python == 3.7.2
 - [ ] add normalization functions
 
 ## Author
-Chi Nok Enoch Kan/ [@chinokenochkan](https://github.com/chinokenochkan)
+Enoch Kan/ [@enochkan](https://github.com/enochkan)
